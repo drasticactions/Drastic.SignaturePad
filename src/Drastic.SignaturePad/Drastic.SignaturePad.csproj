@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../MultiTargeting.targets" />
+	<PropertyGroup>
+		<TargetFrameworks>net7.0-android;net7.0-maccatalyst;net7.0-ios</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>disable</Nullable>
+		<IsPackable>true</IsPackable>
+		<Description>Add a basic signature form in .NET iOS, Catalyst, and Android apps.</Description>
+		<PackageTags>catalyst ios android signaturepad signature</PackageTags>
+	</PropertyGroup>
+	<ItemGroup>
+		<AndroidResource Include="Resources\**\*.axml" />
+		<AndroidResource Include="Resources\**\*.xml" />
+	</ItemGroup>
+</Project>

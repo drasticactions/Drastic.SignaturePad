@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePadApple", "Drastic.SignaturePadApple\Drastic.SignaturePadApple.csproj", "{A56D57A2-4D41-4C28-AA70-95531480FCCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePadSample.Android", "Drastic.SignaturePadSample.Android\Drastic.SignaturePadSample.Android.csproj", "{0F909FAC-2AB5-44FB-97E4-E89CDE0F9E7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePadSample.Catalyst", "Drastic.SignaturePadSample.Catalyst\Drastic.SignaturePadSample.Catalyst.csproj", "{2CAAAF0B-D253-456E-88BA-C274688AF70D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePadSample.iOS", "Drastic.SignaturePadSample.iOS\Drastic.SignaturePadSample.iOS.csproj", "{81FC3DFD-9F2E-4881-BFAD-8E51A907994D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePad", "..\src\Drastic.SignaturePad\Drastic.SignaturePad.csproj", "{5EF595CB-B1F5-4CA3-9713-4A3235B8DDAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePadSampleMaui", "Drastic.SignaturePadSampleMaui\Drastic.SignaturePadSampleMaui.csproj", "{57C47011-DFD9-4021-8F0C-436ECAD8FE60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drastic.SignaturePad.Maui", "..\src\Drastic.SignaturePad.Maui\Drastic.SignaturePad.Maui.csproj", "{1842CCB8-ABB2-44D0-8D6E-898478B2AF33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56D57A2-4D41-4C28-AA70-95531480FCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56D57A2-4D41-4C28-AA70-95531480FCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56D57A2-4D41-4C28-AA70-95531480FCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56D57A2-4D41-4C28-AA70-95531480FCCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F909FAC-2AB5-44FB-97E4-E89CDE0F9E7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F909FAC-2AB5-44FB-97E4-E89CDE0F9E7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F909FAC-2AB5-44FB-97E4-E89CDE0F9E7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F909FAC-2AB5-44FB-97E4-E89CDE0F9E7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CAAAF0B-D253-456E-88BA-C274688AF70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAAAF0B-D253-456E-88BA-C274688AF70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAAAF0B-D253-456E-88BA-C274688AF70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAAAF0B-D253-456E-88BA-C274688AF70D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81FC3DFD-9F2E-4881-BFAD-8E51A907994D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81FC3DFD-9F2E-4881-BFAD-8E51A907994D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81FC3DFD-9F2E-4881-BFAD-8E51A907994D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81FC3DFD-9F2E-4881-BFAD-8E51A907994D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF595CB-B1F5-4CA3-9713-4A3235B8DDAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF595CB-B1F5-4CA3-9713-4A3235B8DDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF595CB-B1F5-4CA3-9713-4A3235B8DDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF595CB-B1F5-4CA3-9713-4A3235B8DDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57C47011-DFD9-4021-8F0C-436ECAD8FE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57C47011-DFD9-4021-8F0C-436ECAD8FE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57C47011-DFD9-4021-8F0C-436ECAD8FE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57C47011-DFD9-4021-8F0C-436ECAD8FE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1842CCB8-ABB2-44D0-8D6E-898478B2AF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1842CCB8-ABB2-44D0-8D6E-898478B2AF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1842CCB8-ABB2-44D0-8D6E-898478B2AF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1842CCB8-ABB2-44D0-8D6E-898478B2AF33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
